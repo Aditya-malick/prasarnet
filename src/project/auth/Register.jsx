@@ -27,7 +27,7 @@ const Register = () => {
        </div>
        <br />
        <div className='pw'>
-        <p className='rp'>SET YOUR PASSWORD</p>
+        <p className='rp'>SET YOUR PASSWORD :</p>
         <input className='pr' type="password" placeholder='PASSWORD' />
        </div>
        <br />
