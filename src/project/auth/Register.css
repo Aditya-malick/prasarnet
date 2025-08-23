@@ -88,7 +88,7 @@ display: block;
      background-color: linear-gradient(90deg,#000000,#333333);
     border: none;
     cursor: pointer;
-    color:gray;
+    color:rgb(0, 0, 0);
     padding: 12px 20px;
     width: 100px;
     border-radius: 25px;
@@ -106,4 +106,7 @@ color: #000000;
     display: flex;
     color: aliceblue;
     justify-content: center;
+}
+.buut button:hover{
+    background-color: rgb(215, 124, 218);
 }
