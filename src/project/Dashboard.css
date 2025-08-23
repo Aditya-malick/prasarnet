@@ -150,7 +150,7 @@ b{
     justify-content: left;
    padding-bottom: 20px;
 }
-.ll{
+.ll {
    
     justify-content:bottom;
     color: #ececec;
@@ -164,6 +164,17 @@ b{
     color: #ececec;
     display: flex;
     justify-content: center;
+  
    
 }
     
+a{
+    color: #ececec;
+    font-weight: bold;
+    font-family: cursive;
+    
+}
+.ll ul li a:hover{
+    background-color: rgb(178, 74, 181);
+    text-decoration: underline;
+}

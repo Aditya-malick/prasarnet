@@ -74,23 +74,23 @@ const Dashboard = () => {
         </div>
        
            <div className='dash'>
-            <h4 className='nav'>DASHBOARD SECTION :
+            <h4 className='nav'>MENU SECTION :
             </h4>
              </div>
             <div className='ll'>
             <ul>
-                <li>PROJECT</li>
+                <li><a href="/profile">.USER PROFILE</a></li>
                 <br />
-                <li>
-                    TASK
+                <li><a href="/dashboard">.DASHBOARD</a>
+                   
                 </li>
                 <br />
-                <li>
-                    TEAM
+                <li><a href="/Todolist">.TODO LIST</a>
+                    
                 </li>
                 <br />
-                <li>
-                    SETTINGS
+                <li><a href="/Todoform">.TOTO LIST FORM</a>
+                  
                 </li>
             </ul>
             </div>

@@ -1,0 +1,117 @@
+.p{
+    background-color: black;
+    padding:20px;
+    margin: 0%;
+    width: 100vw;
+    height: 100vh;
+}
+.pwel{
+     display: flex;
+   text-align: center;
+    margin-top: 20px;
+    justify-content: center;
+    color: rgb(135, 38, 38);
+    font-size: 24px;
+    font-family: cursive;
+}
+.lopo {
+    size: 50%;
+    margin-top: 6%;
+    color: aliceblue;
+    padding: 30px;
+    border-radius: 15px;
+    width: 350px;
+    margin: 50px auto;
+    text-align: center;
+    box-shadow: 0px 4px 20px rgba(255,255,255,0.5);
+    color: white;
+
+   
+
+}
+.ln{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: larger;
+}
+.le{
+    display: flex;
+    justify-content: center;
+     font-family: cursive;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.lp{
+     display: flex;
+    justify-content: center;
+     font-family: cursive;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.blk{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    background-color: aliceblue;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    transition: 0.3s ease;
+   
+    
+}
+.blk:hover{
+    background-color: #a0456b;
+}
+.bkl{
+    display: flex;
+    justify-content: center;
+    size: 30px;
+}
+.dpro{
+    display: flex;
+    justify-content: flex-start;
+  align-items: flex-start;
+    color: rgb(255, 255, 255);
+    padding: 0%;
+    margin: 0%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.upro{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+   
+}
+a{
+    font-size: large;
+    font-weight: bolder;
+}
+.men{
+     color: #ececec;
+    display: flex;
+    position: absolute;
+    top: 20%;
+    left: 0%;
+   
+
+}
+.ms{
+      display: flex;
+    justify-content: left;
+   padding-bottom: 20px;
+   position: absolute;
+   top: 90%;
+   
+
+}
+.ms ul li a:hover{
+    text-decoration: underline;
+    background-color: rgb(207, 58, 177);
+}
