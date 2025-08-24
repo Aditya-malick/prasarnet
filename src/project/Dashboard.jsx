@@ -20,7 +20,7 @@ const Dashboard = () => {
            <div className='come'>
                 <h3 className='e'>COMPLETED TASK
                     <br />
-                    <b>3</b>
+                    <b>4</b>
                 </h3>
                 
                
@@ -28,7 +28,7 @@ const Dashboard = () => {
            <div className='dpen'>
                 <h3 className='pend'>PENDING TASK
                     <br />
-                    <b>4</b>
+                    <b>3</b>
                 </h3>
                 
             </div>
@@ -57,6 +57,12 @@ const Dashboard = () => {
                 <p>
                    . DASHBOARD
                 </p>
+                <p>
+                    . USER PROFILE
+                </p>
+               <p>
+                . USER PROFILE EDIT
+               </p>
                 </ul>
                 </div>
             </div>
@@ -89,7 +95,7 @@ const Dashboard = () => {
                     
                 </li>
                 <br />
-                <li><a href="/Todoform">.TOTO LIST FORM</a>
+                <li><a href="/Todoform">.TODO LIST FORM</a>
                   
                 </li>
             </ul>

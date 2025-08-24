@@ -20,7 +20,7 @@ const Profile = () => {
         <p className='lp'>Phone : +91 9831204851</p>
         <br />
        <div className='bkl'>
-        <button className='blk' type="submit">EDIT PROFILE</button>
+        <button className='blk' type="submit"><a className='editbu' href="/Useredit">EDIT PROFILE</a></button>
         </div>
       </div>
       <div className='upro'>
@@ -36,7 +36,8 @@ const Profile = () => {
           <br />
           <li><a href="/Todolist">.TODO LIST</a></li>
           <br />
-          <li><a href="/Todoform">.TODO LIST FORM</a></li>
+          <li><a href="/Todoform">.TODO LIST FORM</a>
+          </li>
         </ul>
         </div>
       </div>

@@ -115,3 +115,10 @@ a{
     text-decoration: underline;
     background-color: rgb(207, 58, 177);
 }
+.editbu{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    color: black;
+    font-weight: bold;
+}
+

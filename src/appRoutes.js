@@ -4,6 +4,7 @@ import Login from './project/auth/Login';
 import Register from './project/auth/Register';
 import Dashboard from './project/Dashboard';
 import Profile from './project/Profile';
+import Useredit from './project/Useredit';
 import Todolist from './project/Todolist';
 import Todoform from './project/Todoform';
 
@@ -16,6 +17,7 @@ const AppRoutes = () => {
              <Route path='/register' element={<Register/>}/>
              <Route path='/dashboard' element={<Dashboard/>}/>
               <Route path='/profile' element={<Profile/>}/>
+              <Route path='/useredit' element={<Useredit/>}/>
                <Route path='/todolist' element={<Todolist/>}/>
                 <Route path='/todoform' element={<Todoform/>}/>
              
