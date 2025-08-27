@@ -20,13 +20,14 @@
     position: absolute;
     top: 0%;
     left: 0%;
+    color: aqua;
 }
 .welcome{
     display: flex;
    text-align: center;
     margin-top: 20px;
     justify-content: center;
-    color: rgb(255, 255, 255);
+    color: rgb(145, 0, 0);
     font-size: 24px;
     font-family: cursive;
 }
@@ -45,6 +46,7 @@
     margin-right: 20px;
     font-weight: bold;
     font-size: 20px;
+    color: #2b0202;
     
 }
 .uuu{
@@ -177,4 +179,7 @@ a{
 .ll ul li a:hover{
     background-color: rgb(178, 74, 181);
     text-decoration: underline;
+}
+.poi{
+    color: #ffffff;
 }

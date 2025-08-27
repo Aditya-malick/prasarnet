@@ -4,11 +4,7 @@ import "./Todolist.css"
 const Todolist = () => {
   return (
     <div className='t'>
-      <div className='to'>
-        <h1 className='tod'>
-          WELCOME
-        </h1>
-      </div>
+    
       <div className='my'>
         <h1 className='myto'>
           MY TODO FORM
@@ -46,26 +42,7 @@ const Todolist = () => {
           <a className='logto' href="/login">LOGOUT</a>
 
       </div>
-      <div className='mto'>
-        <h2 className='toem'>
-          MENU SECTION :
-        </h2>
-        <div className='uher'>
-          <li><a href="/profile">.USER PROFILE</a></li>
-                <br />
-                <li><a href="/dashboard">.DASHBOARD</a>
-                   
-                </li>
-                <br />
-                <li><a href="/Todolist">.TODO LIST</a>
-                    
-                </li>
-                <br />
-                <li><a href="/Todoform">.TODO LIST FORM</a>
-                  
-                </li>
-        </div>
-      </div>
+     
     </div>
   )
 }

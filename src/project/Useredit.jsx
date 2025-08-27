@@ -4,12 +4,8 @@ import './Useredit.css'
 const Useredit = () => {
   return (
     <div className='ue'>
-        <div className='wuser'>
-            <h1 className='ewd'>WELCOME</h1>
-        </div>
-        <div className='usere'>
-            <h1 className='usedit'>USER-PROFILE EDIT</h1>
-        </div>
+       
+       
         <div className='hdedi'>
         <div className='menedi'>
             <h1 className='edit'>EDIT YOUR PROFILE </h1>
