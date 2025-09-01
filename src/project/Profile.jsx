@@ -1,7 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Profile.css'
 
-const Profile = () => {
+const Profile = (setHeaderName) => {
+
+  useEffect(() => {
+   console.log(">>>>>>>>>setHeaderName",setHeaderName)
+  }, []);
+
+
   return (
     <div className='p'>
      
